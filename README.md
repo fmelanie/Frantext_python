@@ -1,3 +1,12 @@
+Comment faire lorsque l'on souhaite analyser les contextes de verbes extraits de Frantext ?
+Comment analyser un même nombre d'occurrences pour chacun des verbes ?
+
+Il s'agit :
+- dans un premier temps de faire autant de requêtes CQL dans Frantext qu'on a de verbes concernés, 
+et d'exporter chacune des requêtes dans un fichier indépendant,
+- dans un second temps d'isoler les éléments qui se trouvent autour du pivot,
+- dans un troisième temps de sélectionner aléatoirement un même nombre d'exemples pour chacun des verbes,
+et de garder une trace quantitative de cette sélection.
 
 # Extraire des exemples de Frantext :
 
