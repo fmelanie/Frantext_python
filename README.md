@@ -12,8 +12,11 @@ Exemple : romans, 1900-1999
 Exemple :
 
 [lemma="élucider"%cd & pos="V|VPP"]
+
 [lemma="illustrer"%cd & pos="V|VPP"]
+
 [lemma="montrer"%cd & pos="V|VPP"]
+
 
 - exporter chacun des résultats dans un fichier 
 
@@ -23,7 +26,7 @@ Paramètre d'exportation :
     . page
 ATTENTION :
     . ne pas cocher "séparer les mots de la cible"
-    (si votre requête CQL crée un pivot de plusieurs mots, ce qui n'est pas le cas de notre exmple)
+    (particulièrement si la requête CQL crée un pivot de plusieurs mots. Ce qui n'est pas le cas de notre exemple)
     . cocher "inclure les numéros de résultats"
 
 exemple:
@@ -54,8 +57,10 @@ Il s'agit aussi de définir des plages de 10 ans ("interval tps") à partir de l
 
 - En sortie, le script crée :
 
-1 fichier csv contenant 20 exemples maximum par verbe et par interval temporel, sélectionné aléatoirement parmi l'ensemble des exemples disponibles.
+1 fichier csv contenant 20 exemples maximum par verbe et par interval temporel, sélectionné aléatoirement parmi l'ensemble des exemples disponibles (verbes_choixAletoire.csv).
 
-1 fichier csv qui regroupe l'ensemble des exmples non retanus dans le fichier précédent.
+1 fichier csv qui regroupe l'ensemble des exmples non retenus dans le fichier précédent.
+(verbes_pioche.csv)
 
 1 fichier compte qui compte le nombtre d'exmples pour chacun des fichiers et par décennie.
+(compte.csv)
