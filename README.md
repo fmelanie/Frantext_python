@@ -58,6 +58,7 @@ Il s'agit aussi de définir des plages de 10 ans ("interval tps") à partir de l
 - En sortie, le script crée :
 
 1 fichier csv contenant 20 exemples maximum par verbe et par interval temporel, sélectionné aléatoirement parmi l'ensemble des exemples disponibles (verbes_choixAletoire.csv).
+Dans ce fichier, un "ID select" est ajouté. Il s'agit de numéroter les exemples retenus dans l'ordre d'apparition alétaoire, pour pouvoir les manipuler et modifier les tris dans Excel, et ainsi  garder une trace de la sélection aléatoire. (L'Id provenant de l'extraction Frantext est renommé "id Frantext").
 
 1 fichier csv qui regroupe l'ensemble des exmples non retenus dans le fichier précédent.
 (verbes_pioche.csv)
