@@ -1,5 +1,5 @@
 
-# Dans Frantext :
+# Extraire des exemples de Frantext :
 
 - constituer un corpus de travail
 (onglet "corpus")
