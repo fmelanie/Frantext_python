@@ -1,3 +1,6 @@
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fmelanie/Frantext_python/master)
+
 Comment faire lorsque l'on souhaite analyser les contextes de verbes extraits de Frantext ?
 Comment analyser un même nombre d'occurrences pour chacun des verbes ?
 
